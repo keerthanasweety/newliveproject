@@ -1,0 +1,5 @@
+sikulixvproject=2.0.5
+sikulixbuild=2021-03-03_09:13
+sikulixbuildnumber=${env.TRAVIS_BUILD_NUMBER}
+sikulixvjython=2.7.2
+sikulixvjruby=9.2.11.1

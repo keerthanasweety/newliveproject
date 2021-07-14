@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="liveproject" duration-ms="28931" started-at="2021-07-13T08:18:07 IST" finished-at="2021-07-13T08:18:36 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testSuite.Test1@a74868d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testSuite.Test2@12c8a2c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="smoketest" duration-ms="28931" started-at="2021-07-13T08:18:07 IST" finished-at="2021-07-13T08:18:36 IST">
+      <class name="testSuite.Test2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testSuite.Test2@12c8a2c0]" name="setUpClass" is-config="true" duration-ms="6" started-at="2021-07-13T08:18:36 IST" finished-at="2021-07-13T08:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testSuite.Test2@12c8a2c0]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2021-07-13T08:18:36 IST" finished-at="2021-07-13T08:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testSuite.Test2 -->
+      <class name="base.Base">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:base.Base@396e2f39]" name="setUp" is-config="true" duration-ms="10468" started-at="2021-07-13T08:17:57 IST" finished-at="2021-07-13T08:18:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:base.Base@396e2f39]" name="teadDown" is-config="true" duration-ms="4885" started-at="2021-07-13T08:18:37 IST" finished-at="2021-07-13T08:18:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- base.Base -->
+      <class name="testSuite.Test1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testSuite.Test1@a74868d]" name="setUpClass" is-config="true" duration-ms="2125" started-at="2021-07-13T08:18:07 IST" finished-at="2021-07-13T08:18:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testSuite.Test1@a74868d]" name="runScenario" duration-ms="26144" started-at="2021-07-13T08:18:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-13T08:18:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into SalesForce"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[check the login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testSuite.Test1@a74868d]" name="tearDownClass" is-config="true" duration-ms="627" started-at="2021-07-13T08:18:36 IST" finished-at="2021-07-13T08:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testSuite.Test1 -->
+    </test> <!-- smoketest -->
+  </suite> <!-- liveproject -->
+</testng-results>
